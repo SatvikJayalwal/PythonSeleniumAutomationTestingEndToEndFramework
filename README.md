@@ -1,1 +1,1 @@
-# PythonSeleniumAutomationTestingEndToEndFramework
+# PythonSeleniumEndToEndFramework
