@@ -17,24 +17,3 @@ This is a modular, data-driven automation testing framework built using **Python
 
 ---
 
-## 🗂️ Project Structure
-
-
-e2e_TestFramework/
-│
-├── data/
-│ └── test_e2e_TestFramework.json # Test input data
-│
-├── pages/
-│ ├── login.py # LoginPage class (POM)
-│ ├── ShopPage.py # ShopPage class (POM)
-│ └── checkout_confirmation.py # Checkout page logic
-│
-├── utils/
-│ └── browserutils.py # Base utilities (getTitle, etc.)
-│
-├── test_e2e_TestFramework.py # Main test file
-├── conftest.py # PyTest fixture, hooks, CLI args
-├── report.html # Generated test report
-├── screenshots/ # Auto-saved failure screenshots
-└── requirements.txt # Dependencies
